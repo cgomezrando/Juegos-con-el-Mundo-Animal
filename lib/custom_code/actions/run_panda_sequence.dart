@@ -22,10 +22,10 @@ Future runPandaSequence(BuildContext context) async {
 
   await Future.delayed(const Duration(milliseconds: 600));
 
-  // Secuencia acelerada: empieza lenta, acaba rapida
-  int delay = 1400;
+  // Secuencia acelerada
+  int delay = 450;
   int anterior = -1;
-  const int pasos = 14;
+  const int pasos = 22;
 
   for (int paso = 0; paso < pasos; paso++) {
     // Elige una casilla distinta a la anterior
@@ -41,25 +41,18 @@ Future runPandaSequence(BuildContext context) async {
     });
     await Future.delayed(Duration(milliseconds: delay));
 
-    final bool esUltimo = (paso == pasos - 1);
-
-    if (esUltimo) {
-      // Se detiene aqui: pausa larga para que el nino lo vea bien
-      await Future.delayed(const Duration(milliseconds: 900));
-    } else {
-      // Tapa y sigue
-      state.update(() {
-        state.pandaVisible = -1;
-      });
-      await Future.delayed(const Duration(milliseconds: 120));
-    }
+    // Tapa y sigue (tambien en el ultimo paso)
+    state.update(() {
+      state.pandaVisible = -1;
+    });
+    await Future.delayed(const Duration(milliseconds: 70));
 
     // Acelera
-    delay = (delay * 0.82).round();
-    if (delay < 130) delay = 130;
+    delay = (delay * 0.80).round();
+    if (delay < 70) delay = 70;
   }
 
-  // Todas se tapan; la ultima casilla es la respuesta
+  // Todas tapadas; la ultima casilla es la respuesta
   state.update(() {
     state.pandaTarget = anterior;
     state.pandaVisible = -1;
