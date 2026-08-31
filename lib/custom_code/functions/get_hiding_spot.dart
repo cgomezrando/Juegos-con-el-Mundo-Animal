@@ -10,36 +10,26 @@ import '/flutter_flow/place.dart';
 import '/flutter_flow/uploaded_file.dart';
 
 String getHidingSpot(int index) {
-switch (index) {
+  switch (index) {
     case 0:
-      return base +
-          "8mjfzbupknpr/ChatGPT_Image_Jul_12%2C_2026%2C_08_06_08_PM.png";
+      return "assets/images/offline/8mjfzbupknpr_ChatGPT_Image_Jul_12__2026__08_06_08_PM.png";
     case 1:
-      return base +
-          "uojj1nicdzfy/ChatGPT_Image_Jul_12%2C_2026%2C_08_06_14_PM.png";
+      return "assets/images/offline/uojj1nicdzfy_ChatGPT_Image_Jul_12__2026__08_06_14_PM.png";
     case 2:
-      return base +
-          "dx1grgxbnb76/ChatGPT_Image_Jul_12%2C_2026%2C_08_06_28_PM.png";
+      return "assets/images/offline/dx1grgxbnb76_ChatGPT_Image_Jul_12__2026__08_06_28_PM.png";
     case 3:
-      return base +
-          "ecitztbe6gtx/ChatGPT_Image_Jul_12%2C_2026%2C_08_06_34_PM.png";
+      return "assets/images/offline/ecitztbe6gtx_ChatGPT_Image_Jul_12__2026__08_06_34_PM.png";
     case 4:
-      return base +
-          "ncwnrz7pl8r3/ChatGPT_Image_Jul_12%2C_2026%2C_08_06_37_PM.png";
+      return "assets/images/offline/ncwnrz7pl8r3_ChatGPT_Image_Jul_12__2026__08_06_37_PM.png";
     case 5:
-      return base +
-          "zs3r2efj6jmm/ChatGPT_Image_Jul_12%2C_2026%2C_08_06_41_PM.png";
+      return "assets/images/offline/zs3r2efj6jmm_ChatGPT_Image_Jul_12__2026__08_06_41_PM.png";
     case 6:
-      return base +
-          "fcuwzgcipyw1/ChatGPT_Image_Jul_12%2C_2026%2C_08_06_45_PM.png";
+      return "assets/images/offline/fcuwzgcipyw1_ChatGPT_Image_Jul_12__2026__08_06_45_PM.png";
     case 7:
-      return base +
-          "xqjji2w0f9rw/ChatGPT_Image_Jul_12%2C_2026%2C_08_06_49_PM.png";
+      return "assets/images/offline/xqjji2w0f9rw_ChatGPT_Image_Jul_12__2026__08_06_49_PM.png";
     case 8:
-      return base +
-          "cy9c8c5c4rz4/ChatGPT_Image_Jul_12%2C_2026%2C_08_06_52_PM.png";
+      return "assets/images/offline/cy9c8c5c4rz4_ChatGPT_Image_Jul_12__2026__08_06_52_PM.png";
     default:
-      return base +
-          "8mjfzbupknpr/ChatGPT_Image_Jul_12%2C_2026%2C_08_06_08_PM.png";
+      return "assets/images/offline/8mjfzbupknpr_ChatGPT_Image_Jul_12__2026__08_06_08_PM.png";
   }
 }
