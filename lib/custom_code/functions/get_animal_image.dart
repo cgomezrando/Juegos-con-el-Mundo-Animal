@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:timeago/timeago.dart' as timeago;
 import '/flutter_flow/custom_functions.dart';
@@ -10,23 +11,25 @@ import '/flutter_flow/place.dart';
 import '/flutter_flow/uploaded_file.dart';
 
 String getAnimalImage(String name) {
-switch (name) {
+  const base =
+      "assets/puzzles/";
+  switch (name) {
     case "panda":
-      return "assets/images/offline/sczvf54q8yfr_panda.png";
+      return base + "sczvf54q8yfr.png";
     case "perro":
-      return "assets/images/offline/v38e9o7vcgz8_perro.png";
+      return base + "v38e9o7vcgz8.png";
     case "oso":
-      return "assets/images/offline/xb7bierotzo7_oso.png";
+      return base + "xb7bierotzo7.png";
     case "mono":
-      return "assets/images/offline/fxksay6jyop0_mono.png";
+      return base + "fxksay6jyop0.png";
     case "vaca":
-      return "assets/images/offline/883jvfbtj6z7_vaca.png";
+      return base + "883jvfbtj6z7.png";
     case "raton":
-      return "assets/images/offline/nam1e1l6n0oo_raton.png";
+      return base + "nam1e1l6n0oo.png";
     case "gato":
-      return "assets/images/offline/9iae72uwe34c_gato.png";
+      return base + "9iae72uwe34c.png";
     case "conejo":
-      return "assets/images/offline/lclmpcrygbxw_conejo.png";
+      return base + "lclmpcrygbxw.png";
     default:
       return "";
   }

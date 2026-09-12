@@ -1,6 +1,7 @@
 // ignore_for_file: overridden_fields, annotate_overrides
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -216,105 +217,105 @@ class ThemeTypography extends Typography {
 
   String get displayLargeFamily => 'Inter Tight';
   bool get displayLargeIsCustom => false;
-  TextStyle get displayLarge => TextStyle(fontFamily: 'Inter Tight', 
+  TextStyle get displayLarge => GoogleFonts.interTight(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 64.0,
       );
   String get displayMediumFamily => 'Inter Tight';
   bool get displayMediumIsCustom => false;
-  TextStyle get displayMedium => TextStyle(fontFamily: 'Inter Tight', 
+  TextStyle get displayMedium => GoogleFonts.interTight(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 44.0,
       );
   String get displaySmallFamily => 'Inter Tight';
   bool get displaySmallIsCustom => false;
-  TextStyle get displaySmall => TextStyle(fontFamily: 'Inter Tight', 
+  TextStyle get displaySmall => GoogleFonts.interTight(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 36.0,
       );
   String get headlineLargeFamily => 'Inter Tight';
   bool get headlineLargeIsCustom => false;
-  TextStyle get headlineLarge => TextStyle(fontFamily: 'Inter Tight', 
+  TextStyle get headlineLarge => GoogleFonts.interTight(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 32.0,
       );
   String get headlineMediumFamily => 'Inter Tight';
   bool get headlineMediumIsCustom => false;
-  TextStyle get headlineMedium => TextStyle(fontFamily: 'Inter Tight', 
+  TextStyle get headlineMedium => GoogleFonts.interTight(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 28.0,
       );
   String get headlineSmallFamily => 'Inter Tight';
   bool get headlineSmallIsCustom => false;
-  TextStyle get headlineSmall => TextStyle(fontFamily: 'Inter Tight', 
+  TextStyle get headlineSmall => GoogleFonts.interTight(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 24.0,
       );
   String get titleLargeFamily => 'Inter Tight';
   bool get titleLargeIsCustom => false;
-  TextStyle get titleLarge => TextStyle(fontFamily: 'Inter Tight', 
+  TextStyle get titleLarge => GoogleFonts.interTight(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 20.0,
       );
   String get titleMediumFamily => 'Inter Tight';
   bool get titleMediumIsCustom => false;
-  TextStyle get titleMedium => TextStyle(fontFamily: 'Inter Tight', 
+  TextStyle get titleMedium => GoogleFonts.interTight(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 18.0,
       );
   String get titleSmallFamily => 'Inter Tight';
   bool get titleSmallIsCustom => false;
-  TextStyle get titleSmall => TextStyle(fontFamily: 'Inter Tight', 
+  TextStyle get titleSmall => GoogleFonts.interTight(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 16.0,
       );
   String get labelLargeFamily => 'Inter';
   bool get labelLargeIsCustom => false;
-  TextStyle get labelLarge => TextStyle(fontFamily: 'Inter', 
+  TextStyle get labelLarge => GoogleFonts.inter(
         color: theme.secondaryText,
         fontWeight: FontWeight.normal,
         fontSize: 16.0,
       );
   String get labelMediumFamily => 'Inter';
   bool get labelMediumIsCustom => false;
-  TextStyle get labelMedium => TextStyle(fontFamily: 'Inter', 
+  TextStyle get labelMedium => GoogleFonts.inter(
         color: theme.secondaryText,
         fontWeight: FontWeight.normal,
         fontSize: 14.0,
       );
   String get labelSmallFamily => 'Inter';
   bool get labelSmallIsCustom => false;
-  TextStyle get labelSmall => TextStyle(fontFamily: 'Inter', 
+  TextStyle get labelSmall => GoogleFonts.inter(
         color: theme.secondaryText,
         fontWeight: FontWeight.normal,
         fontSize: 12.0,
       );
   String get bodyLargeFamily => 'Inter';
   bool get bodyLargeIsCustom => false;
-  TextStyle get bodyLarge => TextStyle(fontFamily: 'Inter', 
+  TextStyle get bodyLarge => GoogleFonts.inter(
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 16.0,
       );
   String get bodyMediumFamily => 'Inter';
   bool get bodyMediumIsCustom => false;
-  TextStyle get bodyMedium => TextStyle(fontFamily: 'Inter', 
+  TextStyle get bodyMedium => GoogleFonts.inter(
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 14.0,
       );
   String get bodySmallFamily => 'Inter';
   bool get bodySmallIsCustom => false;
-  TextStyle get bodySmall => TextStyle(fontFamily: 'Inter', 
+  TextStyle get bodySmall => GoogleFonts.inter(
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 12.0,
@@ -413,7 +414,7 @@ extension TextStyleHelper on TextStyle {
     String? package,
   }) {
     if (useGoogleFonts && fontFamily != null && fontFamily.isNotEmpty) {
-      font = TextStyle(fontFamily: fontFamily,
+      font = GoogleFonts.getFont(fontFamily,
           fontWeight: fontWeight ?? this.fontWeight,
           fontStyle: fontStyle ?? this.fontStyle);
     }

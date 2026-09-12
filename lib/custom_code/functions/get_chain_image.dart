@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:timeago/timeago.dart' as timeago;
 import '/flutter_flow/custom_functions.dart';
@@ -10,27 +11,29 @@ import '/flutter_flow/place.dart';
 import '/flutter_flow/uploaded_file.dart';
 
 String getChainImage(String levelId) {
-final img = levelId.split("_")[0];
+  const base =
+      "assets/puzzles/";
+  final img = levelId.split("_")[0];
   switch (img) {
     case "chain1":
-      return "assets/images/offline/ex5qqaub7mnm_chain1.png";
+      return base + "ex5qqaub7mnm.png";
     case "chain2":
-      return "assets/images/offline/klbwhj3vuywv_chain2.png";
+      return base + "klbwhj3vuywv.png";
     case "chain3":
-      return "assets/images/offline/fv5x9hwzffyt_chain3.png";
+      return base + "fv5x9hwzffyt.png";
     case "chain4":
-      return "assets/images/offline/rpnbbyc49sm3_chain4.png";
+      return base + "rpnbbyc49sm3.png";
     case "chain5":
-      return "assets/images/offline/lwr2opd02nyv_chain5.png";
+      return base + "lwr2opd02nyv.png";
     case "chain6":
-      return "assets/images/offline/brlepqvbb2ne_chain6.png";
+      return base + "brlepqvbb2ne.png";
     case "chain7":
-      return "assets/images/offline/wq4q2k114hf9_chain7.png";
+      return base + "wq4q2k114hf9.png";
     case "chain8":
-      return "assets/images/offline/5y5r0lt083kp_chain8.png";
+      return base + "5y5r0lt083kp.png";
     case "chain9":
-      return "assets/images/offline/gl5ttnke2kx8_chain9.png";
+      return base + "gl5ttnke2kx8.png";
     default:
-      return "assets/images/offline/ex5qqaub7mnm_chain1.png";
+      return base + "ex5qqaub7mnm.png";
   }
 }

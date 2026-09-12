@@ -6,6 +6,7 @@ import '/custom_code/actions/index.dart' as actions;
 import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'panda_game_model.dart';
 export 'panda_game_model.dart';
@@ -123,7 +124,7 @@ class _PandaGameWidgetState extends State<PandaGameWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                font: TextStyle(fontFamily: 'Baloo2', 
+                                                font: GoogleFonts.baloo2(
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
@@ -165,7 +166,7 @@ class _PandaGameWidgetState extends State<PandaGameWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                font: TextStyle(fontFamily: 'Baloo2', 
+                                                font: GoogleFonts.baloo2(
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
@@ -195,7 +196,7 @@ class _PandaGameWidgetState extends State<PandaGameWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                font: TextStyle(fontFamily: 'Baloo2', 
+                                                font: GoogleFonts.baloo2(
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
@@ -283,15 +284,15 @@ class _PandaGameWidgetState extends State<PandaGameWidget> {
                                                 BorderRadius.circular(8.0),
                                             child: Image.asset(
                                               [
-                                                "assets/images/offline/8mjfzbupknpr_ChatGPT_Image_Jul_12__2026__08_06_08_PM.png",
-                                                "assets/images/offline/uojj1nicdzfy_ChatGPT_Image_Jul_12__2026__08_06_14_PM.png",
-                                                "assets/images/offline/dx1grgxbnb76_ChatGPT_Image_Jul_12__2026__08_06_28_PM.png",
-                                                "assets/images/offline/ecitztbe6gtx_ChatGPT_Image_Jul_12__2026__08_06_34_PM.png",
-                                                "assets/images/offline/ncwnrz7pl8r3_ChatGPT_Image_Jul_12__2026__08_06_37_PM.png",
-                                                "assets/images/offline/zs3r2efj6jmm_ChatGPT_Image_Jul_12__2026__08_06_41_PM.png",
-                                                "assets/images/offline/fcuwzgcipyw1_ChatGPT_Image_Jul_12__2026__08_06_45_PM.png",
-                                                "assets/images/offline/xqjji2w0f9rw_ChatGPT_Image_Jul_12__2026__08_06_49_PM.png",
-                                                "assets/images/offline/cy9c8c5c4rz4_ChatGPT_Image_Jul_12__2026__08_06_52_PM.png"
+                                                "assets/puzzles/8mjfzbupknpr.png",
+                                                "assets/puzzles/uojj1nicdzfy.png",
+                                                "assets/puzzles/dx1grgxbnb76.png",
+                                                "assets/puzzles/ecitztbe6gtx.png",
+                                                "assets/puzzles/ncwnrz7pl8r3.png",
+                                                "assets/puzzles/zs3r2efj6jmm.png",
+                                                "assets/puzzles/fcuwzgcipyw1.png",
+                                                "assets/puzzles/xqjji2w0f9rw.png",
+                                                "assets/puzzles/cy9c8c5c4rz4.png"
                                               ][spotItemIndex],
                                               width: double.infinity,
                                               height: double.infinity,
@@ -304,7 +305,7 @@ class _PandaGameWidgetState extends State<PandaGameWidget> {
                                             borderRadius:
                                                 BorderRadius.circular(8.0),
                                             child: Image.asset(
-                                              'assets/images/offline/y62anwf8fh15_Designer__31_.png',
+                                              'assets/puzzles/y62anwf8fh15.png',
                                               width: double.infinity,
                                               height: double.infinity,
                                               fit: BoxFit.cover,

@@ -8,6 +8,7 @@ import '/index.dart';
 import 'differences_screen_widget.dart' show DifferencesScreenWidget;
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class DifferencesScreenModel extends FlutterFlowModel<DifferencesScreenWidget> {

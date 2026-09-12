@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:timeago/timeago.dart' as timeago;
 import '/flutter_flow/custom_functions.dart';
@@ -14,7 +15,7 @@ List<dynamic>? getDifferences(String levelId) {
     final allDifferences = {
       "koala": {
         "image":
-            "assets/images/offline/pwi2zqevplrd_ChatGPT_Image_Jul_10__2026__08_08_31_AM.png",
+            "assets/puzzles/pwi2zqevplrd.png",
         "differences": [
           {
             "x_left": 103,
@@ -48,7 +49,7 @@ List<dynamic>? getDifferences(String levelId) {
       },
       "niños": {
         "image":
-            "assets/images/offline/s5wp37p3jcez_ChatGPT_Image_Jul_10__2026__08_08_58_AM.png",
+            "assets/puzzles/s5wp37p3jcez.png",
         "differences": [
           {
             "x_left": 64,
@@ -82,7 +83,7 @@ List<dynamic>? getDifferences(String levelId) {
       },
       "lince": {
         "image":
-            "assets/images/offline/cplt1xireeg6_ChatGPT_Image_Jul_10__2026__08_08_08_AM.png",
+            "assets/puzzles/cplt1xireeg6.png",
         "differences": [
           {
             "x_left": 228,
@@ -116,7 +117,7 @@ List<dynamic>? getDifferences(String levelId) {
       },
       "osito": {
         "image":
-            "assets/images/offline/886znvtyojhf_ChatGPT_Image_Jul_10__2026__08_08_36_AM.png",
+            "assets/puzzles/886znvtyojhf.png",
         "differences": [
           {
             "x_left": 367,
@@ -150,7 +151,7 @@ List<dynamic>? getDifferences(String levelId) {
       },
       "cisne": {
         "image":
-            "assets/images/offline/9qd7irk4x1md_ChatGPT_Image_Jul_10__2026__08_08_22_AM.png",
+            "assets/puzzles/9qd7irk4x1md.png",
         "differences": [
           {
             "x_left": 659,
@@ -184,7 +185,7 @@ List<dynamic>? getDifferences(String levelId) {
       },
       "elefante": {
         "image":
-            "assets/images/offline/rtxds9nf2gyx_ChatGPT_Image_Jul_10__2026__08_07_54_AM.png",
+            "assets/puzzles/rtxds9nf2gyx.png",
         "differences": [
           {
             "x_left": 608,

@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:timeago/timeago.dart' as timeago;
 import '/flutter_flow/custom_functions.dart';
@@ -24,7 +25,14 @@ List<String> pickHomeMatchPairs(List<String> current) {
     "conejo",
     "vaca"
   ];
-  final disponibles = all.where((a) => !current.contains(a)).toList();
-  disponibles.shuffle();
-  return disponibles.take(6).toList();
+  all.shuffle();
+  // Evita repetir mas de 2 de la ronda anterior
+  final elegidas = <String>[];
+  for (final a in all) {
+    if (elegidas.length >= 6) break;
+    final repetidas = elegidas.where((e) => current.contains(e)).length;
+    if (current.contains(a) && repetidas >= 2) continue;
+    elegidas.add(a);
+  }
+  return elegidas;
 }

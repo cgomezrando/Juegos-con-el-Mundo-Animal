@@ -8,6 +8,7 @@ import '/index.dart';
 import 'pairs_screen_widget.dart' show PairsScreenWidget;
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class PairsScreenModel extends FlutterFlowModel<PairsScreenWidget> {

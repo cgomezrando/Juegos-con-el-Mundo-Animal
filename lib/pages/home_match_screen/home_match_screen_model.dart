@@ -8,6 +8,7 @@ import '/index.dart';
 import 'home_match_screen_widget.dart' show HomeMatchScreenWidget;
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class HomeMatchScreenModel extends FlutterFlowModel<HomeMatchScreenWidget> {

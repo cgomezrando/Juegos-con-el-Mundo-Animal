@@ -31,7 +31,7 @@ Future handleHomeMatchTap(
   final a = state.hmFlipped[0];
   final b = state.hmFlipped[1];
 
-  await Future.delayed(const Duration(milliseconds: 1500));
+  await Future.delayed(const Duration(milliseconds: 1000));
 
   if (isSamePair(state.hmCards[a], state.hmCards[b])) {
     state.hmMatched = [...state.hmMatched, a, b];

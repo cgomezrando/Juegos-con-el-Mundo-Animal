@@ -4,8 +4,10 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import 'dart:ui';
 import '/flutter_flow/custom_functions.dart' as functions;
 import '/index.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'differences_selection_model.dart';
 export 'differences_selection_model.dart';
@@ -119,7 +121,7 @@ class _DifferencesSelectionWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              font: TextStyle(fontFamily: 'Baloo2', 
+                                              font: GoogleFonts.baloo2(
                                                 fontWeight: FontWeight.w500,
                                                 fontStyle:
                                                     FlutterFlowTheme.of(context)
@@ -160,7 +162,7 @@ class _DifferencesSelectionWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              font: TextStyle(fontFamily: 'Baloo2', 
+                                              font: GoogleFonts.baloo2(
                                                 fontWeight: FontWeight.w500,
                                                 fontStyle:
                                                     FlutterFlowTheme.of(context)
@@ -189,7 +191,7 @@ class _DifferencesSelectionWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              font: TextStyle(fontFamily: 'Baloo2', 
+                                              font: GoogleFonts.baloo2(
                                                 fontWeight: FontWeight.w500,
                                                 fontStyle:
                                                     FlutterFlowTheme.of(context)

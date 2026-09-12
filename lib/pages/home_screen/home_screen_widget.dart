@@ -6,6 +6,7 @@ import '/custom_code/actions/index.dart' as actions;
 import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'home_screen_model.dart';
 export 'home_screen_model.dart';
@@ -104,7 +105,7 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                           '🌟 Mundo Animal 🌟',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    font: TextStyle(fontFamily: 'Baloo2', 
+                                    font: GoogleFonts.baloo2(
                                       fontWeight: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontWeight,
@@ -127,7 +128,7 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                           '¡Elige tu juego favorito!',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    font: TextStyle(fontFamily: 'Baloo2', 
+                                    font: GoogleFonts.baloo2(
                                       fontWeight: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontWeight,
@@ -208,7 +209,7 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            font: TextStyle(fontFamily: 'Inter', 
+                                            font: GoogleFonts.inter(
                                               fontWeight: FontWeight.bold,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
@@ -287,7 +288,7 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            font: TextStyle(fontFamily: 'Inter', 
+                                            font: GoogleFonts.inter(
                                               fontWeight: FontWeight.bold,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
@@ -371,7 +372,7 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            font: TextStyle(fontFamily: 'Inter', 
+                                            font: GoogleFonts.inter(
                                               fontWeight: FontWeight.bold,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
@@ -449,7 +450,7 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            font: TextStyle(fontFamily: 'Inter', 
+                                            font: GoogleFonts.inter(
                                               fontWeight: FontWeight.bold,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
@@ -528,7 +529,7 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            font: TextStyle(fontFamily: 'Inter', 
+                                            font: GoogleFonts.inter(
                                               fontWeight: FontWeight.bold,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
@@ -612,7 +613,7 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            font: TextStyle(fontFamily: 'Inter', 
+                                            font: GoogleFonts.inter(
                                               fontWeight: FontWeight.bold,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
@@ -690,7 +691,7 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            font: TextStyle(fontFamily: 'Inter', 
+                                            font: GoogleFonts.inter(
                                               fontWeight: FontWeight.bold,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)

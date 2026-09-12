@@ -7,6 +7,7 @@ import '/index.dart';
 import 'panda_game_widget.dart' show PandaGameWidget;
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class PandaGameModel extends FlutterFlowModel<PandaGameWidget> {

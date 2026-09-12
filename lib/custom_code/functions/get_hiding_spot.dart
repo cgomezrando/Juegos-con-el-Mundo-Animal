@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:timeago/timeago.dart' as timeago;
 import '/flutter_flow/custom_functions.dart';
@@ -10,26 +11,38 @@ import '/flutter_flow/place.dart';
 import '/flutter_flow/uploaded_file.dart';
 
 String getHidingSpot(int index) {
+  const base =
+      "assets/puzzles/";
   switch (index) {
     case 0:
-      return "assets/images/offline/8mjfzbupknpr_ChatGPT_Image_Jul_12__2026__08_06_08_PM.png";
+      return base +
+          "8mjfzbupknpr.png";
     case 1:
-      return "assets/images/offline/uojj1nicdzfy_ChatGPT_Image_Jul_12__2026__08_06_14_PM.png";
+      return base +
+          "uojj1nicdzfy.png";
     case 2:
-      return "assets/images/offline/dx1grgxbnb76_ChatGPT_Image_Jul_12__2026__08_06_28_PM.png";
+      return base +
+          "dx1grgxbnb76.png";
     case 3:
-      return "assets/images/offline/ecitztbe6gtx_ChatGPT_Image_Jul_12__2026__08_06_34_PM.png";
+      return base +
+          "ecitztbe6gtx.png";
     case 4:
-      return "assets/images/offline/ncwnrz7pl8r3_ChatGPT_Image_Jul_12__2026__08_06_37_PM.png";
+      return base +
+          "ncwnrz7pl8r3.png";
     case 5:
-      return "assets/images/offline/zs3r2efj6jmm_ChatGPT_Image_Jul_12__2026__08_06_41_PM.png";
+      return base +
+          "zs3r2efj6jmm.png";
     case 6:
-      return "assets/images/offline/fcuwzgcipyw1_ChatGPT_Image_Jul_12__2026__08_06_45_PM.png";
+      return base +
+          "fcuwzgcipyw1.png";
     case 7:
-      return "assets/images/offline/xqjji2w0f9rw_ChatGPT_Image_Jul_12__2026__08_06_49_PM.png";
+      return base +
+          "xqjji2w0f9rw.png";
     case 8:
-      return "assets/images/offline/cy9c8c5c4rz4_ChatGPT_Image_Jul_12__2026__08_06_52_PM.png";
+      return base +
+          "cy9c8c5c4rz4.png";
     default:
-      return "assets/images/offline/8mjfzbupknpr_ChatGPT_Image_Jul_12__2026__08_06_08_PM.png";
+      return base +
+          "8mjfzbupknpr.png";
   }
 }

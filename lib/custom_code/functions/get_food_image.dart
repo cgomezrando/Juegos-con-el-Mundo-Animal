@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:timeago/timeago.dart' as timeago;
 import '/flutter_flow/custom_functions.dart';
@@ -10,23 +11,25 @@ import '/flutter_flow/place.dart';
 import '/flutter_flow/uploaded_file.dart';
 
 String getFoodImage(String name) {
-switch (name) {
+  const base =
+      "assets/puzzles/";
+  switch (name) {
     case "bambu":
-      return "assets/images/offline/znj1h0mfcu6d_bambu.png";
+      return base + "znj1h0mfcu6d.png";
     case "hueso":
-      return "assets/images/offline/9qjbgwxqqe0o_hueso.png";
+      return base + "9qjbgwxqqe0o.png";
     case "miel":
-      return "assets/images/offline/tfbntgqzo7jj_miel.png";
+      return base + "tfbntgqzo7jj.png";
     case "platano":
-      return "assets/images/offline/u81icmdzvraq_platano.png";
+      return base + "u81icmdzvraq.png";
     case "pradera":
-      return "assets/images/offline/n8uaq7hm7idn_pradera.png";
+      return base + "n8uaq7hm7idn.png";
     case "queso":
-      return "assets/images/offline/xpht7hrpuqd9_queso.png";
+      return base + "xpht7hrpuqd9.png";
     case "trucha":
-      return "assets/images/offline/q7pcv8ywk46u_trucha.png";
+      return base + "q7pcv8ywk46u.png";
     case "zanahoria":
-      return "assets/images/offline/w6rdaykusc57_zanahoria.png";
+      return base + "w6rdaykusc57.png";
     default:
       return "";
   }

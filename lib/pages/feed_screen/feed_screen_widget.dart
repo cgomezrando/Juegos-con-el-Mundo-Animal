@@ -5,8 +5,10 @@ import 'dart:ui';
 import '/custom_code/actions/index.dart' as actions;
 import '/flutter_flow/custom_functions.dart' as functions;
 import '/index.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'feed_screen_model.dart';
 export 'feed_screen_model.dart';
@@ -139,7 +141,7 @@ class _FeedScreenWidgetState extends State<FeedScreenWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                font: TextStyle(fontFamily: 'Baloo2', 
+                                                font: GoogleFonts.baloo2(
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
@@ -181,7 +183,7 @@ class _FeedScreenWidgetState extends State<FeedScreenWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                font: TextStyle(fontFamily: 'Baloo2', 
+                                                font: GoogleFonts.baloo2(
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
@@ -211,7 +213,7 @@ class _FeedScreenWidgetState extends State<FeedScreenWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                font: TextStyle(fontFamily: 'Baloo2', 
+                                                font: GoogleFonts.baloo2(
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(

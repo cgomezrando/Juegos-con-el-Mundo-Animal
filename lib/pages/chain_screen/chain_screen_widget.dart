@@ -7,6 +7,7 @@ import '/flutter_flow/custom_functions.dart' as functions;
 import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'chain_screen_model.dart';
 export 'chain_screen_model.dart';
@@ -137,7 +138,7 @@ class _ChainScreenWidgetState extends State<ChainScreenWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                font: TextStyle(fontFamily: 'Baloo2', 
+                                                font: GoogleFonts.baloo2(
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
@@ -179,7 +180,7 @@ class _ChainScreenWidgetState extends State<ChainScreenWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                font: TextStyle(fontFamily: 'Baloo2', 
+                                                font: GoogleFonts.baloo2(
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
@@ -209,7 +210,7 @@ class _ChainScreenWidgetState extends State<ChainScreenWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                font: TextStyle(fontFamily: 'Baloo2', 
+                                                font: GoogleFonts.baloo2(
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
@@ -266,7 +267,7 @@ class _ChainScreenWidgetState extends State<ChainScreenWidget> {
                           ),
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    font: TextStyle(fontFamily: 'Inter', 
+                                    font: GoogleFonts.inter(
                                       fontWeight: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontWeight,
@@ -288,7 +289,7 @@ class _ChainScreenWidgetState extends State<ChainScreenWidget> {
                           '➖ ',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    font: TextStyle(fontFamily: 'Inter', 
+                                    font: GoogleFonts.inter(
                                       fontWeight: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontWeight,
@@ -314,7 +315,7 @@ class _ChainScreenWidgetState extends State<ChainScreenWidget> {
                           ),
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    font: TextStyle(fontFamily: 'Inter', 
+                                    font: GoogleFonts.inter(
                                       fontWeight: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontWeight,
@@ -336,7 +337,7 @@ class _ChainScreenWidgetState extends State<ChainScreenWidget> {
                           '➖ ',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    font: TextStyle(fontFamily: 'Inter', 
+                                    font: GoogleFonts.inter(
                                       fontWeight: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontWeight,
@@ -362,7 +363,7 @@ class _ChainScreenWidgetState extends State<ChainScreenWidget> {
                           ),
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    font: TextStyle(fontFamily: 'Inter', 
+                                    font: GoogleFonts.inter(
                                       fontWeight: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontWeight,
@@ -460,7 +461,7 @@ class _ChainScreenWidgetState extends State<ChainScreenWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        font: TextStyle(fontFamily: 'Inter', 
+                                                        font: GoogleFonts.inter(
                                                           fontWeight:
                                                               FlutterFlowTheme.of(
                                                                       context)
